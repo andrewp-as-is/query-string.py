@@ -1,9 +1,10 @@
-#!/usr/bin/env python
+__all__ = ['query_string', 'parse']
+
+
 try:
     from urlparse import parse_qs
 except ImportError:
     from urllib.parse import parse_qs
-import public
 
 
 def _parse_qs(query):
@@ -15,7 +16,6 @@ def _parse_qs(query):
     return kwargs
 
 
-@public.add
 def query_string(string):
     """return dict with query string data. deprecated"""
     if not string:
@@ -28,7 +28,7 @@ def query_string(string):
         qs = qs.split("#")[0]
     return _parse_qs(qs)
 
-@public.add
+
 def parse(string):
     """return dict with query string data"""
     if not string:

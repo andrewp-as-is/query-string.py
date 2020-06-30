@@ -1,25 +1,19 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/query-string.svg?longCache=True)](https://pypi.org/project/query-string/)
-[![](https://img.shields.io/pypi/v/query-string.svg?maxAge=3600)](https://pypi.org/project/query-string/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/query-string.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/query-string.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/query-string.svg?maxAge=3600)](https://pypi.org/project/query-string/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/query-string.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/query-string.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install query-string
 ```
 
 #### Features
 +   Python 2/3 compatible
-
-#### Functions
-function|`__doc__`
--|-
-`query_string.parse(string)` |return dict with query string data
-`query_string.query_string(string)` |return dict with query string data. deprecated
 
 #### Examples
 ```python
@@ -36,5 +30,5 @@ function|`__doc__`
 +   [Query string - Wikipedia](https://en.wikipedia.org/wiki/Query_string)
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
